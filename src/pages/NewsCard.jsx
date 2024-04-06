@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+// import PropTypes from 'prop-types';
 
 const NewsCard = ({news}) => {
 
@@ -22,5 +22,7 @@ const NewsCard = ({news}) => {
 </div>
     );
 };
+
+
 
 export default NewsCard;
